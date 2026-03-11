@@ -371,9 +371,9 @@ body.cursor-hover .cursor-follower {
   position: absolute;
   inset: 0;
   background: linear-gradient(to right,
-      rgba(25, 25, 25, 0.92) 0%,
-      rgba(25, 25, 25, 0.75) 55%,
-      rgba(25, 25, 25, 0.45) 100%);
+      rgba(25, 25, 25, 0.78) 0%,
+      rgba(25, 25, 25, 0.55) 55%,
+      rgba(25, 25, 25, 0.25) 100%);
   pointer-events: none;
   z-index: 0;
 }
