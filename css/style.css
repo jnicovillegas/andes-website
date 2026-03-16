@@ -57,15 +57,15 @@
 /* ── TOKENS ─────────────────────────────────────────────────── */
 :root {
   /* Colors */
-  --c-base: #191919;
-  --c-surface: #212121;
-  --c-accent: #585866;
-  --c-accent-mid: #797985;
-  --c-text: #C7C7C7;
-  --c-text-sub: #D8D8D8;
-  --c-muted: #585866;
-  --c-border: rgba(199, 199, 199, 0.10);
-  --c-border-hover: rgba(199, 199, 199, 0.55);
+  --c-base: #181818;
+  --c-surface: #1f1f1f;
+  --c-accent: #6b6b7a;
+  --c-accent-mid: #9898a6;
+  --c-text: #E2E2E2;
+  --c-text-sub: #F0F0F0;
+  --c-muted: #7a7a88;
+  --c-border: rgba(220, 220, 220, 0.13);
+  --c-border-hover: rgba(220, 220, 220, 0.65);
 
   /* Typography */
   --font-display: 'Area Inktrap Extended', 'Helvetica Neue', sans-serif;
@@ -304,11 +304,11 @@ body.cursor-hover .cursor-follower {
 
 .nav__link {
   font-family: var(--font-body);
-  font-size: var(--text-micro);
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--c-muted);
+  color: var(--c-accent-mid);
   position: relative;
   transition: color var(--dur-fast) ease;
 }
@@ -333,6 +333,7 @@ body.cursor-hover .cursor-follower {
 }
 
 .nav__link--cta {
+  font-size: 0.75rem;
   color: var(--c-text);
   border: 1px solid var(--c-border);
   padding: 0.55rem 1.2rem;
@@ -371,9 +372,9 @@ body.cursor-hover .cursor-follower {
   position: absolute;
   inset: 0;
   background: linear-gradient(to right,
-      rgba(25, 25, 25, 0.78) 0%,
-      rgba(25, 25, 25, 0.55) 55%,
-      rgba(25, 25, 25, 0.25) 100%);
+      rgba(18, 18, 18, 0.52) 0%,
+      rgba(18, 18, 18, 0.30) 55%,
+      rgba(18, 18, 18, 0.06) 100%);
   pointer-events: none;
   z-index: 0;
 }
@@ -394,11 +395,11 @@ body.cursor-hover .cursor-follower {
   align-items: center;
   gap: 1.2rem;
   font-family: var(--font-body);
-  font-size: var(--text-micro);
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--c-muted);
+  color: var(--c-accent-mid);
   margin-bottom: 2rem;
 }
 
